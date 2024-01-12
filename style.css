@@ -1,0 +1,49 @@
+html{
+box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+box-sizing: inherit;
+}
+
+body {
+background-color: white;
+
+}
+
+.main-content {
+background-color: aqua;
+width: 100vw;
+height: 100vw;
+margin: auto;
+position: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.sidebar {
+width: 30%;
+background-color:grey ;
+
+}
+
+.cards {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+body {
+display: flex;
+flex-direction:row;
+}
+
+.sidebar
+
