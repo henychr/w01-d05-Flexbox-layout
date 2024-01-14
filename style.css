@@ -1,49 +1,70 @@
-html{
-box-sizing: border-box;
+html {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 *,
 *:before,
-*:after{
-box-sizing: inherit;
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-background-color: white;
-
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .main-content {
-background-color: aqua;
-width: 100vw;
-height: 100vw;
-margin: auto;
-position: flex;
-flex-direction: row;
-justify-content: space-between;
+  margin: 3vw 5vw;
+  display: flex;
+  justify-content: space-between;
+  /* width: 90vw; */
+  /* height: 90vw; */
 }
 
 .sidebar {
-width: 30%;
-background-color:grey ;
+  width: 20%;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+h2 {
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cards {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding: 5px 20px;
 }
 
-
-
-
-body {
-display: flex;
-flex-direction:row;
+.card {
+  width: 20vw;
+  height: 20vw;
+  margin: 10px;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sidebar
-
+p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
